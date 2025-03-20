@@ -4,7 +4,6 @@ import "./globals.css";
 import Link from "next/link";
 import {ThemeProvider} from "@/components/theme-provider";
 import {ModeToggle} from "@/components/mode-toggle";
-import {useTheme} from "next-themes";
 
 
 export default function RootLayout({children}) {
