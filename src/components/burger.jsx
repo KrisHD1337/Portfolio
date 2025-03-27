@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import Link from "next/link";
-import ProjectAccordion from "@/components/accordion";
+import {Accordion} from "radix-ui";
 
 export default function Burger() {
     const [isOpen, setIsOpen] = useState(false);
@@ -20,19 +20,33 @@ export default function Burger() {
                 }}>
                 <ul className={"text-2xl list-none"}>
                     <li className={"p-3 border-b-emerald-600 border-2 dark:border-b-emerald-400"}>
-                        <Link href={"/"}>Home</Link>
+                        <Link href={"/"} onClick={() => setIsOpen(!isOpen)}>Home</Link>
                     </li>
                     <li className={"p-3 border-b-emerald-600 border-2 dark:border-b-emerald-400"}>
-                        <ProjectAccordion/>
+                        <Accordion.Root className="" type={"multiple"}>
+                            <Accordion.Item value={"item-1"}>
+                                <Accordion.Trigger>Projects</Accordion.Trigger>
+                                <Accordion.Content className="flex justify-center flex-col p-2">
+                                    <Link className="text-lg p-2" href="/projects"
+                                          onClick={() => setIsOpen(!isOpen)}>All Projects</Link>
+                                    <Link className="text-lg p-2" href="/projects/porsche"
+                                          onClick={() => setIsOpen(!isOpen)}>Wirtschaftsgeschichte von Porsche</Link>
+                                    <Link className="text-lg p-2" href="/projects/nuclear-age"
+                                          onClick={() => setIsOpen(!isOpen)}>Nuclear Age Mod</Link>
+                                    <Link className="text-lg p-2" href="/projects/roboxers"
+                                          onClick={() => setIsOpen(!isOpen)}>Roboxers</Link>
+                                </Accordion.Content>
+                            </Accordion.Item>
+                        </Accordion.Root>
                     </li>
                     <li className={"p-3 border-b-emerald-600 border-2 dark:border-b-emerald-400"}>
-                        <Link href={"/me"}>About-Me</Link>
+                        <Link href={"/me"} onClick={() => setIsOpen(!isOpen)}>About-Me</Link>
                     </li>
                     <li className={"p-3 border-b-emerald-600 border-2 dark:border-b-emerald-400"}>
                         <Link href={"https://github.com/KrisHD1337?tab=repositories"} target={"_blank"}>GitHub</Link>
                     </li>
                     <li className={"p-3 border-b-emerald-600 border-2 dark:border-b-emerald-400"}>
-                        <Link href={"/contact"}>Contact</Link>
+                        <Link href={"/contact"} onClick={() => setIsOpen(!isOpen)}>Contact</Link>
                     </li>
                 </ul>
             </div>
