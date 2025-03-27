@@ -5,10 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="15d653a3-00a9-440e-a365-0d5dba6a77a9" name="Changes" comment="added dark/light mode toggle">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/projects/nuclear-age/page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/projects/porsche/page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/projects/roboxers/page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/accordion.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/burger.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/tailwindcss.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/me/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/me/page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/projects/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/projects/page.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +28,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JSX File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -49,21 +59,26 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/BZZ/JS/portfolio",
+    "javascript.nodejs.core.library.configured.version": "20.18.0",
+    "javascript.nodejs.core.library.typings.version": "20.17.24",
+    "last_opened_file_path": "C:/BZZ/JS/portfolio/src/app/projects",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "npm.build.executor": "Run",
-    "settings.editor.selected.configurable": "Settings.JavaScript",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2024.1.2\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\BZZ\JS\portfolio\src\app\projects" />
       <recent name="C:\BZZ\JS\portfolio\src\app\me" />
     </key>
   </component>
@@ -87,7 +102,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-WS-242.23339.15" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-WS-243.26053.12" />
       </set>
     </attachedChunks>
   </component>
@@ -104,7 +119,13 @@
       <workItem from="1742386550288" duration="4657000" />
       <workItem from="1742455885801" duration="139000" />
       <workItem from="1742456154241" duration="711000" />
-      <workItem from="1742456884412" duration="4284000" />
+      <workItem from="1742456884412" duration="5646000" />
+      <workItem from="1742463144263" duration="7000" />
+      <workItem from="1742463267394" duration="14000" />
+      <workItem from="1742463482019" duration="601000" />
+      <workItem from="1742464379879" duration="293000" />
+      <workItem from="1742464681826" duration="2750000" />
+      <workItem from="1743060154301" duration="7632000" />
     </task>
     <task id="LOCAL-00001" summary="created a base layout">
       <option name="closed" value="true" />
@@ -122,7 +143,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742461203049</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added dark/light mode toggle">
+      <option name="closed" value="true" />
+      <created>1742461342755</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1742461342755</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

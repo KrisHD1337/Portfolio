@@ -4,6 +4,7 @@ import "./globals.css";
 import Link from "next/link";
 import {ThemeProvider} from "@/components/theme-provider";
 import {ModeToggle} from "@/components/mode-toggle";
+import Burger from "@/components/burger";
 
 
 export default function RootLayout({children}) {
@@ -17,15 +18,15 @@ export default function RootLayout({children}) {
             enableSystem
             disableTransitionOnChange
         >
-            <header className={"flex text-3xl md:text-5xl p-3 justify-between border-b-2 border-emerald-800 dark:border-emerald-300 content-center"}>
-                <button className={""}>&#9776;</button>
-                <div className={"p-2"}>Kristians Portfolio</div>
+            <header className={"fixed dark:bg-black bg-gray-200 w-full flex text-3xl md:text-5xl p-3 justify-between border-b-2 border-emerald-800 dark:border-emerald-300 content-center"}>
+                <Burger/>
+                <div className={""}>Kristians Portfolio</div>
                 <ModeToggle/>
             </header>
-            <div className={"p-5"}>
+            <div className={"p-5 pt-20"}>
                 {children}
             </div>
-            <footer className="">
+            <footer className={""}>
                 <ul className="flex justify-evenly flex-wrap border-t-2 border-emerald-800 dark:border-emerald-300 p-3">
                     <li className="">
                         <Link href="/privacy">
