@@ -4,20 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15d653a3-00a9-440e-a365-0d5dba6a77a9" name="Changes" comment="added dark/light mode toggle">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/projects/nuclear-age/page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/projects/porsche/page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/projects/roboxers/page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/accordion.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/burger.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/tailwindcss.xml" beforeDir="false" />
+    <list default="true" id="15d653a3-00a9-440e-a365-0d5dba6a77a9" name="Changes" comment="addded fuctioning burger with accordion for projects and fixed the header">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/me/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/me/page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/projects/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/projects/page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/mode-toggle.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/mode-toggle.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,7 +116,7 @@
       <workItem from="1742463482019" duration="601000" />
       <workItem from="1742464379879" duration="293000" />
       <workItem from="1742464681826" duration="2750000" />
-      <workItem from="1743060154301" duration="7632000" />
+      <workItem from="1743060154301" duration="10034000" />
     </task>
     <task id="LOCAL-00001" summary="created a base layout">
       <option name="closed" value="true" />
@@ -151,7 +142,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742461342755</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="addded fuctioning burger with accordion for projects and fixed the header">
+      <option name="closed" value="true" />
+      <created>1743068701470</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1743068701470</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,6 +159,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="created a base layout" />
     <MESSAGE value="added dark/light mode toggle" />
-    <option name="LAST_COMMIT_MESSAGE" value="added dark/light mode toggle" />
+    <MESSAGE value="addded fuctioning burger with accordion for projects and fixed the header" />
+    <option name="LAST_COMMIT_MESSAGE" value="addded fuctioning burger with accordion for projects and fixed the header" />
   </component>
 </project>

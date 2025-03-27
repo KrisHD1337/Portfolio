@@ -5,9 +5,35 @@ import Link from "next/link";
 import {ThemeProvider} from "@/components/theme-provider";
 import {ModeToggle} from "@/components/mode-toggle";
 import Burger from "@/components/burger";
+import {usePathname} from "next/navigation";
 
 
 export default function RootLayout({children}) {
+    const pathname = usePathname();
+    const getTitle = () => {
+        switch (pathname) {
+            case "/":
+                return "Kristians Portfolio";
+            case "/about":
+                return "About";
+            case "/projects":
+                return "Projects";
+            case "/me":
+                return "About me";
+            case "/contact":
+                return "Contact";
+            case "/projects/roboxers":
+                return "Roboxers";
+            case "/projects/nuclear-age":
+                return "Nuclear Age Mod";
+            case "/projects/porsche":
+                return "Wirtschaftsgeschichte von Porsche";
+            case "/privacy":
+                return "Privacy Policy";
+            default:
+                return "Kristians Portfolio";
+        }
+    };
     return (
         <html lang="en" suppressHydrationWarning>
         <body
@@ -18,12 +44,13 @@ export default function RootLayout({children}) {
             enableSystem
             disableTransitionOnChange
         >
-            <header className={"fixed dark:bg-black bg-gray-200 w-full flex text-3xl md:text-5xl p-3 justify-between border-b-2 border-emerald-800 dark:border-emerald-300 content-center"}>
+            <header
+                className={"fixed dark:bg-black bg-gray-200 w-full flex text-3xl md:text-5xl p-3 justify-between border-b-2 border-emerald-800 dark:border-emerald-300 content-center"}>
                 <Burger/>
-                <div className={""}>Kristians Portfolio</div>
+                <div className={""}>{getTitle()}</div>
                 <ModeToggle/>
             </header>
-            <div className={"p-5 pt-20"}>
+            <div className={"p-5 pt-23"}>
                 {children}
             </div>
             <footer className={""}>
