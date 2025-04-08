@@ -7,7 +7,7 @@ export default function Burger() {
 
     return (
         <div>
-            <button className={"text-5xl"} onClick={() => setIsOpen(!isOpen)}>&#9776;</button>
+            <button className={"text-4xl md:text-5xl"} onClick={() => setIsOpen(!isOpen)}>&#9776;</button>
             <div
                     className={`absolute top-19 left-0 md:w-1/4 w-3/4 h-screen dark:bg-emerald-950 dark:border-t-emerald-400 
                 dark:border-r-emerald-400 border-2 bg-gray-200 flex flex-col

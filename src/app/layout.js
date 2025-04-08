@@ -45,7 +45,8 @@ export default function RootLayout({children}) {
             disableTransitionOnChange
         >
             <header
-                className={"fixed dark:bg-black bg-gray-200 w-full flex text-3xl md:text-5xl p-3 justify-between border-b-2 border-emerald-800 dark:border-emerald-300 content-center"}>
+                className={"fixed dark:bg-black bg-gray-200 w-full flex text-4xl md:text-5xl p-3 justify-between " +
+                    "border-b-2 border-emerald-800 dark:border-emerald-300 content-center flex items-center"}>
                 <Burger/>
                 <div className={""}>{getTitle()}</div>
                 <ModeToggle/>
