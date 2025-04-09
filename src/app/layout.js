@@ -51,7 +51,7 @@ export default function RootLayout({children}) {
                 <div className={""}>{getTitle()}</div>
                 <ModeToggle/>
             </header>
-            <div className={"p-5 pt-23"}>
+            <div className={"pt-19"}>
                 {children}
             </div>
             <footer className={""}>
