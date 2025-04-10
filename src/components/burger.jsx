@@ -9,8 +9,9 @@ export default function Burger() {
         <div>
             <button className={"text-4xl md:text-5xl"} onClick={() => setIsOpen(!isOpen)}>&#9776;</button>
             <div
-                    className={`absolute top-19 left-0 md:w-1/4 w-3/4 h-screen dark:bg-emerald-950 dark:border-t-emerald-400 
-                dark:border-r-emerald-400 border-2 bg-gray-200 flex flex-col
+                    className={`absolute top-19 left-0 md:w-1/4 w-3/4 h-screen bg-gradient-to-tl 
+                    dark:from-emerald-950 dark:via-emerald-800 dark:to-emerald-950 dark:border-t-emerald-400 
+                dark:border-r-emerald-400 border-2 from-gray-300 via-emerald-100 to-gray-300 flex flex-col
                 border-t-emerald-600 border-r-emerald-600
                 gap-6 font-semibold text-lg transform transition-transform
                 ${isOpen ? "opacity-100" : "opacity-0 hidden"}`}

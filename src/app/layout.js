@@ -37,7 +37,7 @@ export default function RootLayout({children}) {
     return (
         <html lang="en" suppressHydrationWarning>
         <body
-            className={"bg-gray-200 dark:bg-black text-emerald-800 dark:text-emerald-300"}>
+            className={"text-emerald-800 dark:text-emerald-300 bg-gradient-to-tr  dark:from-black  dark:via-emerald-800 dark:to-black from-gray-300 via-emerald-100 to-gray-300"}>
         <ThemeProvider
             attribute="class"
             defaultTheme="dark"
@@ -45,8 +45,7 @@ export default function RootLayout({children}) {
             disableTransitionOnChange
         >
             <header
-                className={"fixed dark:bg-black bg-gray-200 w-full flex text-4xl md:text-5xl p-3 justify-between " +
-                    "border-b-2 border-emerald-800 dark:border-emerald-300 content-center flex items-center"}>
+                className={"fixed dark:bg-black bg-gray-200 w-full flex text-4xl md:text-5xl p-3 justify-between border-b-2 border-emerald-800 dark:border-emerald-300 content-center items-center"}>
                 <Burger/>
                 <div className={""}>{getTitle()}</div>
                 <ModeToggle/>
