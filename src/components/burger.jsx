@@ -52,7 +52,7 @@ export default function Burger() {
                 </ul>
             </div>
             <div onClick={() => setIsOpen(!isOpen)}
-                 className={`absolute top-19 md:left-1/4 md:w-3/4 left-3/4 w-1/4 h-screen bg-black flex flex-col
+                 className={`absolute top-19.5 md:left-1/4 md:w-3/4 left-3/4 w-1/4 h-screen bg-black flex flex-col
                 items-center gap-6 font-semibold text-lg transform transition-transform 
                 ${isOpen ? "opacity-50" : "opacity-0 hidden"}`}
                  style={{
