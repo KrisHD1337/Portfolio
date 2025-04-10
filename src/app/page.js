@@ -40,27 +40,27 @@ export default function Home() {
                         takimata sanctus est Lorem ipsum dolor sit amet.</p>
                 </section>
                 <ul className={"w-1/2 left-1/2 list-none p-5 text-center"}>
-                    <li className={"text-xl border-2 rounded-2xl border-cyan-400 text-cyan-400 p-2 m-2"}>
+                    <li className={"text-xl border-2 rounded-2xl border-emerald-800 dark:border-cyan-400 dark:text-cyan-400 bg-cyan-400 dark:bg-black p-2 m-2"}>
                         <Link href={"https://github.com/KrisHD1337?tab=repositories&q=&type=&language=python&sort="}
                               target={"_blank"}>Python</Link>
                     </li>
-                    <li className={"text-xl border-2 rounded-2xl border-orange-400 text-orange-400 p-2 m-2"}>
+                    <li className={"text-xl border-2 rounded-2xl border-emerald-800 dark:border-orange-400 dark:text-orange-400 bg-orange-400 dark:bg-black p-2 m-2"}>
                         <Link href={"https://github.com/KrisHD1337?tab=repositories&q=&type=&language=java&sort="}
                               target={"_blank"}>Java</Link>
                     </li>
-                    <li className={"text-xl border-2 rounded-2xl border-yellow-400 text-yellow-400 p-2 m-2"}>
+                    <li className={"text-xl border-2 rounded-2xl border-emerald-800 dark:border-yellow-400 dark:text-yellow-400 bg-yellow-400 dark:bg-black p-2 m-2"}>
                         <Link href={"https://github.com/KrisHD1337?tab=repositories&q=&type=&language=javascript&sort="}
                               target={"_blank"}>JavaScript</Link>
                     </li>
-                    <li className={"text-xl border-2 rounded-2xl border-green-400 text-green-400 p-2 m-2"}>
+                    <li className={"text-xl border-2 rounded-2xl border-emerald-800 dark:border-green-400 dark:text-green-400 bg-green-400 dark:bg-black p-2 m-2"}>
                         <Link href={"https://github.com/KrisHD1337?tab=repositories&q=&type=&language=html&sort="}
                               target={"_blank"}>HTML</Link>
                     </li>
-                    <li className={"text-xl border-2 rounded-2xl border-blue-400 text-blue-400 p-2 m-2"}>
+                    <li className={"text-xl border-2 rounded-2xl border-emerald-800 dark:border-blue-400 dark:text-blue-400 bg-blue-400 dark:bg-black p-2 m-2"}>
                         <Link href={"https://github.com/KrisHD1337?tab=repositories&q=&type=&language=css&sort="}
                               target={"_blank"}>CSS</Link>
                     </li>
-                    <li className={"text-xl border-2 rounded-2xl border-red-400 text-red-400 p-2 m-2"}>
+                    <li className={"text-xl border-2 rounded-2xl border-emerald-800 dark:border-red-400 dark:text-red-400 bg-red-400 dark:bg-black p-2 m-2"}>
                         <Link href={"https://github.com/KrisHD1337?tab=repositories&q=&type=&language=sql&sort="}
                               target={"_blank"}>SQL</Link>
                     </li>
