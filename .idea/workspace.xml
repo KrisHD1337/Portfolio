@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15d653a3-00a9-440e-a365-0d5dba6a77a9" name="Changes" comment="made the title change based on page">
+    <list default="true" id="15d653a3-00a9-440e-a365-0d5dba6a77a9" name="Changes" comment="Fixed a mobile sizing issue">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/projects/roboxers/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/projects/gambling/page.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/burger.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/burger.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,26 +48,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "javascript.nodejs.core.library.configured.version": "20.18.0",
-    "javascript.nodejs.core.library.typings.version": "20.17.24",
-    "last_opened_file_path": "C:/BZZ/JS/portfolio/src/app/projects",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "npm.build.executor": "Run",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2024.1.2\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;20.18.0&quot;,
+    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;20.17.24&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/BZZ/JS/portfolio/src/app/projects&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.build.executor&quot;: &quot;Run&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2024.1.2\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\BZZ\JS\portfolio\src\app\projects" />
@@ -114,7 +117,17 @@
       <workItem from="1742463482019" duration="601000" />
       <workItem from="1742464379879" duration="293000" />
       <workItem from="1742464681826" duration="2750000" />
-      <workItem from="1743060154301" duration="10850000" />
+      <workItem from="1743060154301" duration="11286000" />
+      <workItem from="1744106374325" duration="3329000" />
+      <workItem from="1744110495245" duration="11000" />
+      <workItem from="1744110518340" duration="729000" />
+      <workItem from="1744201241205" duration="4845000" />
+      <workItem from="1744266728277" duration="6266000" />
+      <workItem from="1744615363506" duration="2000" />
+      <workItem from="1745842444355" duration="463000" />
+      <workItem from="1745845496696" duration="16000" />
+      <workItem from="1746685577444" duration="579000" />
+      <workItem from="1746687620724" duration="1226000" />
     </task>
     <task id="LOCAL-00001" summary="created a base layout">
       <option name="closed" value="true" />
@@ -156,7 +169,63 @@
       <option name="project" value="LOCAL" />
       <updated>1743071161882</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="updated burger to automatically close when selceting a site">
+      <option name="closed" value="true" />
+      <created>1743071807301</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1743071807301</updated>
+    </task>
+    <task id="LOCAL-00007" summary="fixed header sizes for mobile">
+      <option name="closed" value="true" />
+      <created>1744107795076</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1744107795076</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Almost done with welcome and languages page">
+      <option name="closed" value="true" />
+      <created>1744205357939</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1744205357939</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Made some changes for light-mode">
+      <option name="closed" value="true" />
+      <created>1744266960320</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1744266960320</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Added color-gradients">
+      <option name="closed" value="true" />
+      <created>1744271125495</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1744271125495</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Fixed a tiny spacing issue">
+      <option name="closed" value="true" />
+      <created>1744271718429</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1744271718429</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Fixed a mobile sizing issue">
+      <option name="closed" value="true" />
+      <created>1744271829600</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1744271829600</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,6 +236,13 @@
     <MESSAGE value="added dark/light mode toggle" />
     <MESSAGE value="addded fuctioning burger with accordion for projects and fixed the header" />
     <MESSAGE value="made the title change based on page" />
-    <option name="LAST_COMMIT_MESSAGE" value="made the title change based on page" />
+    <MESSAGE value="updated burger to automatically close when selceting a site" />
+    <MESSAGE value="fixed header sizes for mobile" />
+    <MESSAGE value="Almost done with welcome and languages page" />
+    <MESSAGE value="Made some changes for light-mode" />
+    <MESSAGE value="Added color-gradients" />
+    <MESSAGE value="Fixed a tiny spacing issue" />
+    <MESSAGE value="Fixed a mobile sizing issue" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed a mobile sizing issue" />
   </component>
 </project>

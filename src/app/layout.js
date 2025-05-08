@@ -22,7 +22,7 @@ export default function RootLayout({children}) {
                 return "About me";
             case "/contact":
                 return "Contact";
-            case "/projects/roboxers":
+            case "/projects/gambling":
                 return "Roboxers";
             case "/projects/nuclear-age":
                 return "Nuclear Age Mod";

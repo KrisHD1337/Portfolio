@@ -60,6 +60,12 @@ export default function Home() {
                     </li>
                 </ul>
             </div>
+            <div className="flex justify-between h-screen items-center border-b-2 border-x-2  border-emerald-800
+            dark:border-emerald-300 dark:animate-pulse-border-dark animate-pulse-border-light w-screen p-0 m-0">
+                <section className={"w-1/3 p-2 border-emerald-800 dark:border-emerald-300 dark:animate-pulse-border-dark animate-pulse-border-light"}>a</section>
+                <section className={"w-1/3 p-2 border-emerald-800 dark:border-emerald-300 dark:animate-pulse-border-dark animate-pulse-border-light"}>a</section>
+                <section className={"w-1/3 p-2 border-emerald-800 dark:border-emerald-300 dark:animate-pulse-border-dark animate-pulse-border-light"}>a</section>
+            </div>
         </div>
     );
 }
