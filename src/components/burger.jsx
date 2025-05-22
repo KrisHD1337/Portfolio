@@ -36,6 +36,10 @@ export default function Burger() {
                                           onClick={() => setIsOpen(!isOpen)}>Nuclear Age Mod</Link>
                                     <Link className="text-lg p-2" href="/projects/gambling"
                                           onClick={() => setIsOpen(!isOpen)}>Gambling API</Link>
+                                    <Link className="text-lg p-2" href="/projects/stalinium"
+                                          onClick={() => setIsOpen(!isOpen)}>Stalinium Mod</Link>
+                                    <Link className="text-lg p-2" href="/projects/portfolio"
+                                          onClick={() => setIsOpen(!isOpen)}>Portfolio</Link>
                                 </Accordion.Content>
                             </Accordion.Item>
                         </Accordion.Root>

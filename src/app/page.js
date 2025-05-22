@@ -60,11 +60,69 @@ export default function Home() {
                     </li>
                 </ul>
             </div>
-            <div className="flex justify-between h-screen items-center border-b-2 border-x-2  border-emerald-800
-            dark:border-emerald-300 dark:animate-pulse-border-dark animate-pulse-border-light w-screen p-0 m-0">
-                <section className={"w-1/3 p-2 border-emerald-800 dark:border-emerald-300 dark:animate-pulse-border-dark animate-pulse-border-light"}>a</section>
-                <section className={"w-1/3 p-2 border-emerald-800 dark:border-emerald-300 dark:animate-pulse-border-dark animate-pulse-border-light"}>a</section>
-                <section className={"w-1/3 p-2 border-emerald-800 dark:border-emerald-300 dark:animate-pulse-border-dark animate-pulse-border-light"}>a</section>
+            <div className="flex flex-wrap justify-evenly h-full items-start border-b-2 border-x-2  border-emerald-800
+            dark:border-emerald-300 dark:animate-pulse-border-dark animate-pulse-border-light w-screen p-2 pt-15">
+                <section
+                    className={"flex flex-col p-2 m-5 w-9/10 md:w-3/10 rounded-sm border-emerald-800 dark:border-emerald-300 dark:animate-pulse-border-dark border-2 animate-pulse-border-light"}>
+                    <Link href={"/projects/porsche"}>
+                        <img className={"w-md"} src={"/porsche.png"} alt={"Bild von Projekt"}/>
+                        <h1 className={"text-center text-3xl md:text-4xl underline p-2"}>Wirtschaftsgeschichte von
+                            Porsche</h1>
+                    </Link>
+                    <p className={"text-center text-sm md:text-base"}>Lorem ipsum dolor sit amet, consetetur sadipscing
+                        elitr, sed diam
+                        nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
+                        vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
+                        sanctus est Lorem ipsum dolor sit amet.</p>
+                </section>
+                <section
+                    className={"flex flex-col p-2 m-5 w-9/10 md:w-3/10 rounded-sm border-emerald-800 dark:border-emerald-300 dark:animate-pulse-border-dark border-2 animate-pulse-border-light"}>
+                    <Link href={"/projects/nuclear-age"}>
+                        <img className={"w-md h-md"} src={"/reactor_core.png"} alt={"Bild von Projekt"}/>
+                        <h1 className={"text-center text-3xl md:text-4xl underline p-2"}>Nuclear Age Mod</h1>
+                    </Link>
+                    <p className={"text-center text-sm md:text-base"}>Lorem ipsum dolor sit amet, consetetur sadipscing
+                        elitr, sed diam
+                        nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
+                        vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
+                        sanctus est Lorem ipsum dolor sit amet.</p>
+                </section>
+                <section
+                    className={"flex p-2 flex-col m-5 w-9/10 md:w-3/10 rounded-sm border-emerald-800 dark:border-emerald-300 dark:animate-pulse-border-dark border-2 animate-pulse-border-light"}>
+                    <Link href={"/projects/gambling"}>
+                        <img className={"w-md"} src={"/gambling.png"} alt={"Bild von Projekt"}/>
+                        <h1 className={"text-center text-3xl md:text-4xl underline p-2"}>Gambling API</h1>
+                    </Link>
+                    <p className={"text-center text-sm md:text-base"}>Lorem ipsum dolor sit amet, consetetur sadipscing
+                        elitr, sed diam
+                        nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
+                        vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
+                        sanctus est Lorem ipsum dolor sit amet.</p>
+                </section>
+                <section
+                    className={"flex p-2 flex-col m-5 w-9/10 md:w-3/10 rounded-sm border-emerald-800 dark:border-emerald-300 dark:animate-pulse-border-dark border-2 animate-pulse-border-light"}>
+                    <Link href={"/projects/stalinium"}>
+                        <img className={"w-md"} src={"/stalinium.jpg"} alt={"Bild von Projekt"}/>
+                        <h1 className={"text-center text-3xl md:text-4xl underline p-2"}>Stalinium Mod</h1>
+                    </Link>
+                    <p className={"text-center text-sm md:text-base"}>Lorem ipsum dolor sit amet, consetetur sadipscing
+                        elitr, sed diam
+                        nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
+                        vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
+                        sanctus est Lorem ipsum dolor sit amet.</p>
+                </section>
+                <section
+                    className={"flex p-2 flex-col m-5 w-9/10 md:w-3/10 rounded-sm border-emerald-800 dark:border-emerald-300 dark:animate-pulse-border-dark border-2 animate-pulse-border-light"}>
+                    <Link href={"/projects/portfolio"}>
+                        <img className={"w-md"} src={"/portfolio.png"} alt={"Bild von Projekt"}/>
+                        <h1 className={"text-center text-3xl md:text-4xl underline p-2"}>Portfolio</h1>
+                    </Link>
+                    <p className={"text-center text-sm md:text-base"}>Lorem ipsum dolor sit amet, consetetur sadipscing
+                        elitr, sed diam
+                        nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
+                        vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
+                        sanctus est Lorem ipsum dolor sit amet.</p>
+                </section>
             </div>
         </div>
     );
