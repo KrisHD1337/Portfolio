@@ -4,19 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15d653a3-00a9-440e-a365-0d5dba6a77a9" name="Changes" comment="Changed a project name">
-      <change afterPath="$PROJECT_DIR$/public/gambling.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/porsche.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/portfolio.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/reactor_core.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stalinium.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/projects/portfolio/page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/projects/stalinium/page.js" afterDir="false" />
+    <list default="true" id="15d653a3-00a9-440e-a365-0d5dba6a77a9" name="Changes" comment="Added new project links for Stalinium Mod and Portfolio; updated About page content">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/about/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/about/page.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/projects/gambling/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/projects/gambling/page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/burger.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/burger.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,7 +144,7 @@
       <workItem from="1747212060956" duration="11000" />
       <workItem from="1747212107053" duration="3000" />
       <workItem from="1747290521182" duration="4840000" />
-      <workItem from="1747895515224" duration="5313000" />
+      <workItem from="1747895515224" duration="6418000" />
     </task>
     <task id="LOCAL-00001" summary="created a base layout">
       <option name="closed" value="true" />
@@ -260,7 +250,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746689722129</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Added new project links for Stalinium Mod and Portfolio; updated About page content">
+      <option name="closed" value="true" />
+      <created>1747900931361</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1747900931361</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -279,6 +277,7 @@
     <MESSAGE value="Fixed a tiny spacing issue" />
     <MESSAGE value="Fixed a mobile sizing issue" />
     <MESSAGE value="Changed a project name" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed a project name" />
+    <MESSAGE value="Added new project links for Stalinium Mod and Portfolio; updated About page content" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added new project links for Stalinium Mod and Portfolio; updated About page content" />
   </component>
 </project>

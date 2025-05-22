@@ -34,30 +34,48 @@ export default function Home() {
                     </p>
                 </section>
                 <ul className={"w-1/2 left-1/2 list-none p-5 text-center"}>
-                    <li className={"text-xl border-2 rounded-2xl dark:hover:bg-radial from-black via-black to-cyan-400 border-emerald-800 dark:border-cyan-400 dark:text-cyan-400 bg-cyan-400 dark:bg-black p-2 m-2"}>
-                        <Link href={"https://github.com/KrisHD1337?tab=repositories&q=&type=&language=python&sort="}
-                              target={"_blank"}>Python</Link>
-                    </li>
-                    <li className={"text-xl border-2 rounded-2xl dark:hover:bg-radial from-black via-black to-orange-400 border-emerald-800 dark:border-orange-400 dark:text-orange-400 bg-orange-400 dark:bg-black p-2 m-2"}>
-                        <Link href={"https://github.com/KrisHD1337?tab=repositories&q=&type=&language=java&sort="}
-                              target={"_blank"}>Java</Link>
-                    </li>
-                    <li className={"text-xl border-2 rounded-2xl dark:hover:bg-radial from-black via-black to-yellow-400 border-emerald-800 dark:border-yellow-400 dark:text-yellow-400 bg-yellow-400 dark:bg-black p-2 m-2"}>
-                        <Link href={"https://github.com/KrisHD1337?tab=repositories&q=&type=&language=javascript&sort="}
-                              target={"_blank"}>JavaScript</Link>
-                    </li>
-                    <li className={"text-xl border-2 rounded-2xl dark:hover:bg-radial from-black via-black to-green-400 border-emerald-800 dark:border-green-400 dark:text-green-400 bg-green-400 dark:bg-black p-2 m-2"}>
-                        <Link href={"https://github.com/KrisHD1337?tab=repositories&q=&type=&language=html&sort="}
-                              target={"_blank"}>HTML</Link>
-                    </li>
-                    <li className={"text-xl border-2 rounded-2xl dark:hover:bg-radial from-black via-black to-blue-400 border-emerald-800 dark:border-blue-400 dark:text-blue-400 bg-blue-400 dark:bg-black p-2 m-2"}>
-                        <Link href={"https://github.com/KrisHD1337?tab=repositories&q=&type=&language=css&sort="}
-                              target={"_blank"}>CSS</Link>
-                    </li>
-                    <li className={"text-xl border-2 rounded-2xl dark:hover:bg-radial from-black via-black to-red-400 border-emerald-800 dark:border-red-400 dark:text-red-400 bg-red-400 dark:bg-black p-2 m-2"}>
-                        <Link href={"https://github.com/KrisHD1337?tab=repositories&q=&type=&language=sql&sort="}
-                              target={"_blank"}>SQL</Link>
-                    </li>
+                    <Link href={"https://github.com/KrisHD1337?tab=repositories&q=&type=&language=sql&sort="}
+                          target={"_blank"}>
+                        <li className={"text-xl border-2 rounded-2xl dark:hover:bg-radial from-black via-black to-red-400 border-emerald-800 dark:border-red-400 dark:text-red-400 bg-red-400 dark:bg-black p-2 m-2"}>
+                            SQL
+                        </li>
+                    </Link>
+                    <Link href={"https://github.com/KrisHD1337?tab=repositories&q=&type=&language=java&sort="}
+                          target={"_blank"}>
+                        <li className={"text-xl border-2 rounded-2xl dark:hover:bg-radial from-black via-black to-orange-400 border-emerald-800 dark:border-orange-400 dark:text-orange-400 bg-orange-400 dark:bg-black p-2 m-2"}>
+                            Java
+                        </li>
+                    </Link>
+                    <Link href={"https://github.com/KrisHD1337?tab=repositories&q=&type=&language=javascript&sort="}
+                          target={"_blank"}>
+                        <li className={"text-xl border-2 rounded-2xl dark:hover:bg-radial from-black via-black to-yellow-400 border-emerald-800 dark:border-yellow-400 dark:text-yellow-400 bg-yellow-400 dark:bg-black p-2 m-2"}>
+                            JavaScript
+                        </li>
+                    </Link>
+                    <Link href={"https://github.com/KrisHD1337?tab=repositories&q=&type=&language=html&sort="}
+                          target={"_blank"}>
+                        <li className={"text-xl border-2 rounded-2xl dark:hover:bg-radial from-black via-black to-green-400 border-emerald-800 dark:border-green-400 dark:text-green-400 bg-green-400 dark:bg-black p-2 m-2"}>
+                            HTML
+                        </li>
+                    </Link>
+                    <Link href={"https://github.com/KrisHD1337?tab=repositories&q=&type=&language=python&sort="}
+                          target={"_blank"}>
+                        <li className={"text-xl border-2 rounded-2xl dark:hover:bg-radial from-black via-black to-cyan-400 border-emerald-800 dark:border-cyan-400 dark:text-cyan-400 bg-cyan-400 dark:bg-black p-2 m-2"}>
+                            Python
+                        </li>
+                    </Link>
+                    <Link href={"https://github.com/KrisHD1337?tab=repositories&q=&type=&language=css&sort="}
+                          target={"_blank"}>
+                        <li className={"text-xl border-2 rounded-2xl dark:hover:bg-radial from-black via-black to-blue-400 border-emerald-800 dark:border-blue-400 dark:text-blue-400 bg-blue-400 dark:bg-black p-2 m-2"}>
+                            CSS
+                        </li>
+                    </Link>
+                    <Link href={"https://github.com/KrisHD1337?tab=repositories&q=&type=&language=kotlin&sort="}
+                          target={"_blank"}>
+                        <li className={"text-xl border-2 rounded-2xl dark:hover:bg-radial from-black via-black to-violet-400 border-emerald-800 dark:border-violet-400 dark:text-violet-400 bg-violet-400 dark:bg-black p-2 m-2"}>
+                            Kotlin
+                        </li>
+                    </Link>
                 </ul>
             </div>
             <div className="flex flex-wrap justify-evenly h-full items-start border-b-2 border-x-2  border-emerald-800
