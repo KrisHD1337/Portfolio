@@ -1,4 +1,4 @@
-export default function About() {
+export default function Impressum() {
     return <div className={"h-full p-7.5 text-wrap w-screen md:w-2/3"}>
         <h1 className={"text-4xl md:text-5xl"}>Impressum und Haftungsausschluss</h1>
         <h2 className={"text-2xl md:text-3xl"}>Impressum</h2>

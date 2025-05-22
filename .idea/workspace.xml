@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15d653a3-00a9-440e-a365-0d5dba6a77a9" name="Changes" comment="Add dynamic page titles and update project routing" />
+    <list default="true" id="15d653a3-00a9-440e-a365-0d5dba6a77a9" name="Changes" comment="Add Title component for dynamic page titles in layout">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/about/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/impressum/page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -142,7 +147,7 @@
       <workItem from="1747212060956" duration="11000" />
       <workItem from="1747212107053" duration="3000" />
       <workItem from="1747290521182" duration="4840000" />
-      <workItem from="1747895515224" duration="7034000" />
+      <workItem from="1747895515224" duration="7887000" />
     </task>
     <task id="LOCAL-00001" summary="created a base layout">
       <option name="closed" value="true" />
@@ -272,7 +277,23 @@
       <option name="project" value="LOCAL" />
       <updated>1747903868949</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Update page titles">
+      <option name="closed" value="true" />
+      <created>1747904046937</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1747904046937</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Add Title component for dynamic page titles in layout">
+      <option name="closed" value="true" />
+      <created>1747904246431</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1747904246431</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -294,6 +315,8 @@
     <MESSAGE value="Added new project links for Stalinium Mod and Portfolio; updated About page content" />
     <MESSAGE value="Added Kotlin" />
     <MESSAGE value="Add dynamic page titles and update project routing" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add dynamic page titles and update project routing" />
+    <MESSAGE value="Update page titles" />
+    <MESSAGE value="Add Title component for dynamic page titles in layout" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Title component for dynamic page titles in layout" />
   </component>
 </project>

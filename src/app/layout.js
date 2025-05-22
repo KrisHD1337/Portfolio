@@ -15,8 +15,8 @@ export default function RootLayout({children}) {
         switch (pathname) {
             case "/":
                 return "Kristians Portfolio";
-            case "/about":
-                return "About";
+            case "/impressum":
+                return "Impressum";
             case "/projects":
                 return "Projects";
             case "/me":
@@ -72,8 +72,8 @@ export default function RootLayout({children}) {
                         </Link>
                     </li>
                     <li className="">
-                        <Link href="/about">
-                            About
+                        <Link href="/impressum">
+                            Impressum
                         </Link>
                     </li>
                 </ul>
