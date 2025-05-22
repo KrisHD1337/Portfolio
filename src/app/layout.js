@@ -7,7 +7,7 @@ import {ModeToggle} from "@/components/mode-toggle";
 import Burger from "@/components/burger";
 import {usePathname} from "next/navigation";
 import Head from "next/head";
-
+import Title from "@/components/title";
 
 export default function RootLayout({children}) {
     const pathname = usePathname();
@@ -39,11 +39,9 @@ export default function RootLayout({children}) {
                 return "Kristians Portfolio";
         }
     };
+    Title(getTitle());
     return (
         <html lang="en" suppressHydrationWarning>
-        <Head>
-            <title>Kurwa</title>
-        </Head>
         <body
             className={"text-emerald-800 dark:text-emerald-300 bg-gradient-to-tr dark:from-black  dark:via-emerald-800 dark:to-black from-gray-300 via-emerald-100 to-gray-300"}>
         <ThemeProvider
