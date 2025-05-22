@@ -6,6 +6,7 @@ import {ThemeProvider} from "@/components/theme-provider";
 import {ModeToggle} from "@/components/mode-toggle";
 import Burger from "@/components/burger";
 import {usePathname} from "next/navigation";
+import Head from "next/head";
 
 
 export default function RootLayout({children}) {
@@ -23,7 +24,11 @@ export default function RootLayout({children}) {
             case "/contact":
                 return "Contact";
             case "/projects/gambling":
-                return "Roboxers";
+                return "Gambling API";
+            case "/projects/stalinium":
+                return "Stalinium";
+            case "/projects/portfolio":
+                return "Portfolio";
             case "/projects/nuclear-age":
                 return "Nuclear Age Mod";
             case "/projects/porsche":
@@ -36,6 +41,9 @@ export default function RootLayout({children}) {
     };
     return (
         <html lang="en" suppressHydrationWarning>
+        <Head>
+            <title>{getTitle()}</title>
+        </Head>
         <body
             className={"text-emerald-800 dark:text-emerald-300 bg-gradient-to-tr dark:from-black  dark:via-emerald-800 dark:to-black from-gray-300 via-emerald-100 to-gray-300"}>
         <ThemeProvider
