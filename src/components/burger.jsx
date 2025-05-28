@@ -28,17 +28,15 @@ export default function Burger() {
                             <Accordion.Item value={"item-1"}>
                                 <Accordion.Trigger>Projects</Accordion.Trigger>
                                 <Accordion.Content className="flex justify-center flex-col p-2">
-                                    <Link className="text-lg p-2" href="/projects"
-                                          onClick={() => setIsOpen(!isOpen)}>All Projects</Link>
-                                    <Link className="text-lg p-2" href="/projects/porsche"
+                                    <Link className="text-lg p-2" target={"_blank"} href="https://github.com/michi-mk-zh/PrWR-Porsche"
                                           onClick={() => setIsOpen(!isOpen)}>Wirtschaftsgeschichte von Porsche</Link>
-                                    <Link className="text-lg p-2" href="/projects/nuclear-age"
+                                    <Link className="text-lg p-2" target={"_blank"} href="https://github.com/KrisHD1337/NeoForge-NuclearAgeMod1.21.1"
                                           onClick={() => setIsOpen(!isOpen)}>Nuclear Age Mod</Link>
-                                    <Link className="text-lg p-2" href="/projects/gambling"
+                                    <Link className="text-lg p-2" target={"_blank"} href="https://github.com/ScriptSorcerer20/Gambling_API"
                                           onClick={() => setIsOpen(!isOpen)}>Gambling API</Link>
-                                    <Link className="text-lg p-2" href="/projects/stalinium"
+                                    <Link className="text-lg p-2" target={"_blank"} href="https://github.com/KrisHD1337/Stalinium"
                                           onClick={() => setIsOpen(!isOpen)}>Stalinium Mod</Link>
-                                    <Link className="text-lg p-2" href="/projects/portfolio"
+                                    <Link className="text-lg p-2" target={"_blank"} href="https://github.com/KrisHD1337/Portfolio"
                                           onClick={() => setIsOpen(!isOpen)}>Portfolio</Link>
                                 </Accordion.Content>
                             </Accordion.Item>

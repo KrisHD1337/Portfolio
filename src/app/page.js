@@ -70,19 +70,18 @@ export default function Home() {
                             CSS
                         </li>
                     </Link>
-                    <Link href={"https://github.com/KrisHD1337?tab=repositories&q=&type=&language=kotlin&sort="}
-                          target={"_blank"}>
+                    <Link target={"_blank"} href={"https://github.com/KrisHD1337?tab=repositories&q=&type=&language=kotlin&sort="}>
                         <li className={"text-xl border-2 rounded-2xl dark:hover:bg-radial from-black via-black to-violet-400 border-emerald-800 dark:border-violet-400 dark:text-violet-400 bg-violet-400 dark:bg-black p-2 m-2"}>
                             Kotlin
                         </li>
                     </Link>
                 </ul>
             </div>
-            <div className="flex flex-wrap justify-evenly h-full items-start border-b-2 border-x-2  border-emerald-800
+            <div id={"projekte"} className="flex flex-wrap justify-evenly h-full items-start border-b-2 border-x-2  border-emerald-800
             dark:border-emerald-300 dark:animate-pulse-border-dark animate-pulse-border-light w-screen p-2 pt-15">
                 <section
                     className={"flex flex-col p-2 m-5 w-9/10 md:w-3/10 rounded-sm border-emerald-800 dark:border-emerald-300 dark:animate-pulse-border-dark border-2 animate-pulse-border-light"}>
-                    <Link href={"/projects/porsche"}>
+                    <Link target={"_blank"} href={"https://github.com/michi-mk-zh/PrWR-Porsche"}>
                         <img className={"w-md"} src={"/porsche.png"} alt={"Bild von Projekt"}/>
                         <h1 className={"text-center text-3xl md:text-4xl underline p-2"}>Wirtschaftsgeschichte von
                             Porsche</h1>
@@ -95,7 +94,7 @@ export default function Home() {
                 </section>
                 <section
                     className={"flex flex-col p-2 m-5 w-9/10 md:w-3/10 rounded-sm border-emerald-800 dark:border-emerald-300 dark:animate-pulse-border-dark border-2 animate-pulse-border-light"}>
-                    <Link href={"/projects/nuclear-age"}>
+                    <Link target={"_blank"} href={"https://github.com/KrisHD1337/NeoForge-NuclearAgeMod1.21.1"}>
                         <img className={"w-md h-md"} src={"/reactor_core.png"} alt={"Bild von Projekt"}/>
                         <h1 className={"text-center text-3xl md:text-4xl underline p-2"}>Nuclear Age Mod</h1>
                     </Link>
@@ -107,7 +106,7 @@ export default function Home() {
                 </section>
                 <section
                     className={"flex p-2 flex-col m-5 w-9/10 md:w-3/10 rounded-sm border-emerald-800 dark:border-emerald-300 dark:animate-pulse-border-dark border-2 animate-pulse-border-light"}>
-                    <Link href={"/projects/gambling"}>
+                    <Link target={"_blank"} href={"https://github.com/ScriptSorcerer20/Gambling_API"}>
                         <img className={"w-md"} src={"/gambling.png"} alt={"Bild von Projekt"}/>
                         <h1 className={"text-center text-3xl md:text-4xl underline p-2"}>Gambling API</h1>
                     </Link>
@@ -119,7 +118,7 @@ export default function Home() {
                 </section>
                 <section
                     className={"flex p-2 flex-col m-5 w-9/10 md:w-3/10 rounded-sm border-emerald-800 dark:border-emerald-300 dark:animate-pulse-border-dark border-2 animate-pulse-border-light"}>
-                    <Link href={"/projects/stalinium"}>
+                    <Link target={"_blank"} href={"https://github.com/KrisHD1337/Stalinium"}>
                         <img className={"w-md"} src={"/stalinium.jpg"} alt={"Bild von Projekt"}/>
                         <h1 className={"text-center text-3xl md:text-4xl underline p-2"}>Stalinium Mod</h1>
                     </Link>
@@ -131,7 +130,7 @@ export default function Home() {
                 </section>
                 <section
                     className={"flex p-2 flex-col m-5 w-9/10 md:w-3/10 rounded-sm border-emerald-800 dark:border-emerald-300 dark:animate-pulse-border-dark border-2 animate-pulse-border-light"}>
-                    <Link href={"/projects/portfolio"}>
+                    <Link target={"_blank"} href={"https://github.com/KrisHD1337/Portfolio"}>
                         <img className={"w-md"} src={"/portfolio.png"} alt={"Bild von Projekt"}/>
                         <h1 className={"text-center text-3xl md:text-4xl underline p-2"}>Portfolio</h1>
                     </Link>
