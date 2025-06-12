@@ -14,12 +14,12 @@ export default function Home() {
                     <p className={"md:text-2xl justify-items-center text-center"}>
                         Mein Name ist Kristian und bin Schüler an der Informatikmittelschule in Hottingen. Ich
                         programmiere
-                        hauptsächlich Videospiele und Mods. Auf dieser Webseite findest du meine Projekte und
+                        hauptsächlich Mods und Videospiele. Auf dieser Webseite findest du meine Projekte und
                         Informationen
                         zu mir!
                     </p>
                     <Button
-                        className={"p-4 md:p-7 mt-20 md:text-3xl bg-emerald-800 text-gray-200 dark:bg-emerald-300 dark:text-black m-5"}>
+                        className={"p-4 md:p-7 mt-20 md:text-2xl bg-emerald-800 text-gray-200 dark:bg-emerald-300 dark:text-black m-5"}>
                         <Link className={""} href={"/me"}>Mehr zu mir</Link>
                     </Button>
                 </section>
@@ -70,7 +70,8 @@ export default function Home() {
                             CSS
                         </li>
                     </Link>
-                    <Link target={"_blank"} href={"https://github.com/KrisHD1337?tab=repositories&q=&type=&language=kotlin&sort="}>
+                    <Link target={"_blank"}
+                          href={"https://github.com/KrisHD1337?tab=repositories&q=&type=&language=kotlin&sort="}>
                         <li className={"text-xl border-2 rounded-2xl dark:hover:bg-radial from-black via-black to-violet-400 border-emerald-800 dark:border-violet-400 dark:text-violet-400 bg-violet-400 dark:bg-black p-2 m-2"}>
                             Kotlin
                         </li>
@@ -86,11 +87,11 @@ export default function Home() {
                         <h1 className={"text-center text-3xl md:text-4xl underline p-2"}>Wirtschaftsgeschichte von
                             Porsche</h1>
                     </Link>
-                    <p className={"text-center text-sm md:text-base"}>Lorem ipsum dolor sit amet, consetetur sadipscing
-                        elitr, sed diam
-                        nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
-                        vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
-                        sanctus est Lorem ipsum dolor sit amet.</p>
+                    <p className={"text-center text-sm md:text-base"}>
+                        Eine Webseite über die Wirtschaftsgeschichte von Porsche. Sie wurde mit HTML, CSS und JavaScript
+                        prgroammiert. Es war ein Gruppenprojekt mit zwei Kollegen. Die Webseite enthält interactive
+                        Elemente und ist zum Grossteil responsive.
+                    </p>
                 </section>
                 <section
                     className={"flex flex-col p-2 m-5 w-9/10 md:w-3/10 rounded-sm border-emerald-800 dark:border-emerald-300 dark:animate-pulse-border-dark border-2 animate-pulse-border-light"}>
@@ -98,11 +99,13 @@ export default function Home() {
                         <img className={"w-md h-md"} src={"/reactor_core.png"} alt={"Bild von Projekt"}/>
                         <h1 className={"text-center text-3xl md:text-4xl underline p-2"}>Nuclear Age Mod</h1>
                     </Link>
-                    <p className={"text-center text-sm md:text-base"}>Lorem ipsum dolor sit amet, consetetur sadipscing
-                        elitr, sed diam
-                        nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
-                        vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
-                        sanctus est Lorem ipsum dolor sit amet.</p>
+                    <p className={"text-center text-sm md:text-base"}>
+                        Dies ist meine erste richtige Minecraft Mod die ich in Java programmiert habe. Sie ist momentan
+                        für 1.21.1 NeoForge auf Modrinth und Curseforge verfügbar. Die Mod enthält neue Blöcke und Items
+                        mit dem Ziel realistische Atomreaktoren in Minecraft zu haben, die man selber bauen kann und
+                        funktionieren. Die Mod fügt auch radioaktive Blöcke hinzu, von denen mansich lieber fernhalten
+                        sollte.
+                    </p>
                 </section>
                 <section
                     className={"flex p-2 flex-col m-5 w-9/10 md:w-3/10 rounded-sm border-emerald-800 dark:border-emerald-300 dark:animate-pulse-border-dark border-2 animate-pulse-border-light"}>
@@ -110,11 +113,11 @@ export default function Home() {
                         <img className={"w-md"} src={"/gambling.png"} alt={"Bild von Projekt"}/>
                         <h1 className={"text-center text-3xl md:text-4xl underline p-2"}>Gambling API</h1>
                     </Link>
-                    <p className={"text-center text-sm md:text-base"}>Lorem ipsum dolor sit amet, consetetur sadipscing
-                        elitr, sed diam
-                        nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
-                        vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
-                        sanctus est Lorem ipsum dolor sit amet.</p>
+                    <p className={"text-center text-sm md:text-base"}>
+                        Dies ist eine API, die ich mit zwei Kollegen programmiert habe. Sie ist mit Express in
+                        JavaScript geschrieben. Mit der API kann man Glücksspiele wie Poker spielen und es hat auch
+                        schon eine eingebaute Webseite zum dies tun.
+                    </p>
                 </section>
                 <section
                     className={"flex p-2 flex-col m-5 w-9/10 md:w-3/10 rounded-sm border-emerald-800 dark:border-emerald-300 dark:animate-pulse-border-dark border-2 animate-pulse-border-light"}>
@@ -122,11 +125,12 @@ export default function Home() {
                         <img className={"w-md"} src={"/stalinium.jpg"} alt={"Bild von Projekt"}/>
                         <h1 className={"text-center text-3xl md:text-4xl underline p-2"}>Stalinium Mod</h1>
                     </Link>
-                    <p className={"text-center text-sm md:text-base"}>Lorem ipsum dolor sit amet, consetetur sadipscing
-                        elitr, sed diam
-                        nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
-                        vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
-                        sanctus est Lorem ipsum dolor sit amet.</p>
+                    <p className={"text-center text-sm md:text-base"}>
+                        Dies ist meine zweite in Java programmierte Minecraft Mod. Sie ist momentan für 1.21.1 NeoForge
+                        auf Modrinth erhältlich. Die Mod habe mich mit ein paar Kollegen zusammen programmiert. Die Mod
+                        fügt das stärkste Material auf der Erde hinzu. Und zwar Stalinium. Die Rüstung und Werkzeuge
+                        haben alle spezielle Funktionen. Die Mod basiert auf dem Stalinium Meme.
+                    </p>
                 </section>
                 <section
                     className={"flex p-2 flex-col m-5 w-9/10 md:w-3/10 rounded-sm border-emerald-800 dark:border-emerald-300 dark:animate-pulse-border-dark border-2 animate-pulse-border-light"}>
@@ -134,11 +138,11 @@ export default function Home() {
                         <img className={"w-md"} src={"/portfolio.png"} alt={"Bild von Projekt"}/>
                         <h1 className={"text-center text-3xl md:text-4xl underline p-2"}>Portfolio</h1>
                     </Link>
-                    <p className={"text-center text-sm md:text-base"}>Lorem ipsum dolor sit amet, consetetur sadipscing
-                        elitr, sed diam
-                        nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
-                        vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
-                        sanctus est Lorem ipsum dolor sit amet.</p>
+                    <p className={"text-center text-sm md:text-base"}>
+                        Dies ist mein Portfolio, welches du gerade anschaust. Es ist mit Next.js und Taliwind CSS
+                        programmiert. Es enthält informationen zu mir und meinen Projekten. Dazu ist es auch responsive
+                        und hat einige interaktive Elemente. Dies ist mein erstes Next.js Projekt.
+                    </p>
                 </section>
             </div>
         </div>

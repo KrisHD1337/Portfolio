@@ -43,13 +43,13 @@ export default function Burger() {
                         </Accordion.Root>
                     </li>
                     <li className={"p-3 border-b-emerald-600 border-2 dark:border-b-emerald-400"}>
-                        <Link href={"/me"} onClick={() => setIsOpen(!isOpen)}>About-Me</Link>
+                        <Link href={"/me"} onClick={() => setIsOpen(!isOpen)}>Über mich</Link>
                     </li>
                     <li className={"p-3 border-b-emerald-600 border-2 dark:border-b-emerald-400"}>
                         <Link href={"https://github.com/KrisHD1337?tab=repositories"} target={"_blank"}>GitHub</Link>
                     </li>
                     <li className={"p-3 border-b-emerald-600 border-2 dark:border-b-emerald-400"}>
-                        <Link href={"/contact"} onClick={() => setIsOpen(!isOpen)}>Contact</Link>
+                        <Link href={"/contact"} onClick={() => setIsOpen(!isOpen)}>Kontakt</Link>
                     </li>
                 </ul>
             </div>

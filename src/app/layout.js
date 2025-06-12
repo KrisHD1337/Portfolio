@@ -20,7 +20,7 @@ export default function RootLayout({children}) {
             case "/projects":
                 return "Projects";
             case "/me":
-                return "About me";
+                return "Über mich";
             case "/contact":
                 return "Contact";
             case "/projects/gambling":
@@ -33,8 +33,6 @@ export default function RootLayout({children}) {
                 return "Nuclear Age Mod";
             case "/projects/porsche":
                 return "Wirtschaftsgeschichte von Porsche";
-            case "/privacy":
-                return "Privacy Policy";
             default:
                 return "Kristians Portfolio";
         }
@@ -62,13 +60,8 @@ export default function RootLayout({children}) {
             <footer className={""}>
                 <ul className="flex justify-evenly flex-wrap border-t-2 border-emerald-800 dark:border-emerald-300 p-3">
                     <li className="">
-                        <Link href="/privacy">
-                            Privacy Policy
-                        </Link>
-                    </li>
-                    <li className="">
                         <Link href="/contact">
-                            Contact
+                            Kontakt
                         </Link>
                     </li>
                     <li className="">
