@@ -26,7 +26,7 @@ export default function Burger() {
                     <li className={"p-3 border-b-emerald-600 border-2 dark:border-b-emerald-400"}>
                         <Accordion.Root className="" type={"multiple"}>
                             <Accordion.Item value={"item-1"}>
-                                <Accordion.Trigger>Projects</Accordion.Trigger>
+                                <Accordion.Trigger>Projekte</Accordion.Trigger>
                                 <Accordion.Content className="flex justify-center flex-col p-2">
                                     <Link className="text-lg p-2" target={"_blank"} href="https://github.com/michi-mk-zh/PrWR-Porsche"
                                           onClick={() => setIsOpen(!isOpen)}>Wirtschaftsgeschichte von Porsche</Link>

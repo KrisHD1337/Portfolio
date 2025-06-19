@@ -4,13 +4,20 @@ import {Button} from "@/components/ui/button";
 export default function Home() {
     return (
         <div>
-            <div className="flex dark:animate-pulse-border-dark animate-pulse-border-light justify-between h-screen
-            items-center border-b-2 border-x-2 border-emerald-800 dark:border-emerald-300 w-screen p-0 m-0">
-                <section className={"w-1/2 md:w-1/3 p-5 place-content-center"}>
-                    <img className={"w-sm pl-20"} src={"/img.png"} alt={"Bild von Kristian"}/>
+            <div className="flex flex-col md:flex-row dark:animate-pulse-border-dark animate-pulse-border-light
+                        justify-between h-screen items-center border-b-2 border-x-2 border-emerald-800
+                        dark:border-emerald-300 w-screen p-0 m-0">
+
+                <section className="order-2 md:order-1 w-full md:w-1/3 p-5 flex justify-center">
+                    <img
+                        className="w-2/3 mx-auto md:w-sm md:pl-20"
+                        src="/img.jpeg"
+                        alt="Bild von Kristian"
+                    />
                 </section>
-                <section className={"flex flex-col items-center w-1/2 md:w-2/3 left-1/2 md:left-1/3 p-10"}>
-                    <h1 className={"text-3xl md:text-6xl dark:animate-pulse-dark animate-pulse-light p-2"}>Willkommen!</h1>
+
+                <section className="order-1 md:order-2 flex flex-col items-center w-full md:w-2/3 p-10">
+                    <h1 className="text-3xl md:text-6xl dark:animate-pulse-dark animate-pulse-light p-2">Willkommen!</h1>
                     <p className={"md:text-2xl justify-items-center text-center"}>
                         Mein Name ist Kristian und bin Schüler an der Informatikmittelschule in Hottingen. Ich
                         programmiere
