@@ -22,7 +22,7 @@ export default function RootLayout({children}) {
             case "/me":
                 return "Über mich";
             case "/contact":
-                return "Contact";
+                return "Kontakt";
             case "/projects/gambling":
                 return "Gambling API";
             case "/projects/stalinium":

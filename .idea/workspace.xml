@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15d653a3-00a9-440e-a365-0d5dba6a77a9" name="Changes" comment="Added proper text for projects and changed localization to german">
-      <change afterPath="$PROJECT_DIR$/public/img.jpeg" afterDir="false" />
+    <list default="true" id="15d653a3-00a9-440e-a365-0d5dba6a77a9" name="Changes" comment="Updated layout and localization:  &#10;- Improved &quot;Impressum&quot; and &quot;Me&quot; page layouts.  &#10;- Replaced placeholder text with actual content on &quot;Me&quot; page.  &#10;- Renamed &quot;Projects&quot; to &quot;Projekte&quot; in the burger menu.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/impressum/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/impressum/page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/me/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/me/page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/burger.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/burger.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/contact/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/contact/page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,7 +161,7 @@
       <workItem from="1748435208992" duration="1091000" />
       <workItem from="1749106848452" duration="6796000" />
       <workItem from="1749710145212" duration="7446000" />
-      <workItem from="1750314584738" duration="3202000" />
+      <workItem from="1750314584738" duration="3869000" />
     </task>
     <task id="LOCAL-00001" summary="created a base layout">
       <option name="closed" value="true" />
@@ -343,7 +339,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749713027509</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Updated layout and localization:  &#10;- Improved &quot;Impressum&quot; and &quot;Me&quot; page layouts.  &#10;- Replaced placeholder text with actual content on &quot;Me&quot; page.  &#10;- Renamed &quot;Projects&quot; to &quot;Projekte&quot; in the burger menu.">
+      <option name="closed" value="true" />
+      <created>1750318095078</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1750318095078</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -372,6 +376,7 @@
     <MESSAGE value="Update project links in burger component and page layout" />
     <MESSAGE value="Added a picture of me" />
     <MESSAGE value="Added proper text for projects and changed localization to german" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added proper text for projects and changed localization to german" />
+    <MESSAGE value="Updated layout and localization:  &#10;- Improved &quot;Impressum&quot; and &quot;Me&quot; page layouts.  &#10;- Replaced placeholder text with actual content on &quot;Me&quot; page.  &#10;- Renamed &quot;Projects&quot; to &quot;Projekte&quot; in the burger menu." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated layout and localization:  &#10;- Improved &quot;Impressum&quot; and &quot;Me&quot; page layouts.  &#10;- Replaced placeholder text with actual content on &quot;Me&quot; page.  &#10;- Renamed &quot;Projects&quot; to &quot;Projekte&quot; in the burger menu." />
   </component>
 </project>
